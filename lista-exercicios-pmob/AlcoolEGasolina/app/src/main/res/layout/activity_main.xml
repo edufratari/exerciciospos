@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@android:dimen/app_icon_size"
+        android:text="Qual compensa mais? Alcool ou Gasolina?"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/alcoolTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o valor do Alcool"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/gasolinaTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o valor da Gasolina"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCalcula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calculaPrecoCombustivel"
+        android:text="Calcular" />
+</LinearLayout>
+
+
